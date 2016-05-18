@@ -14,7 +14,8 @@ www.classyshark.com
 ### Command line
 
 ```sh
-./classyshark -methodcounts a.apk
+curl -L https://github.com/yongjhih/docker-classyshark/raw/master/classyshark > ~/bin/classyshark && chmod a+x classyshark
+classyshark -methodcounts a.apk
 ```
 
 [Command line reference] (https://github.com/google/android-classyshark/blob/master/CommandLine.pdf)
