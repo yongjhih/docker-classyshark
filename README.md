@@ -11,7 +11,12 @@ ClassyShark is a standalone tool for Android developers. It can reliably browse 
 ### Learn more
 www.classyshark.com
 
-### Command line 
+### Command line
+
+```sh
+./classyshark -methodcounts a.apk
+```
+
 [Command line reference] (https://github.com/google/android-classyshark/blob/master/CommandLine.pdf)
 
 ### ClassyShark APIs (as jar)
